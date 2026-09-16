@@ -1,0 +1,5 @@
+{
+    "vocab_limit": 20000,
+    "vocab_size": 20000,
+    "context_length": 20
+}

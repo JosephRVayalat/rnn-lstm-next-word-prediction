@@ -1,9 +1,26 @@
+# Virtual environment
 venv/
+
+# Python
 __pycache__/
 *.pyc
-.DS_Store
-.ipynb_checkpoints/
-.env
 
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw dataset
 data/raw/
+
+# Large/generated preprocessing files
+data/processed/*.npy
+data/processed/*.pkl
+data/processed/*_clean.txt
+
+# Trained models
 models/
+
+# Environment variables
+.env
